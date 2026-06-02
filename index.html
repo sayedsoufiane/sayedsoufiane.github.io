@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Portfolio de Soufiane Sayed, Étudiant BTS SIO option SISR." />
+        <meta name="description" content="Portfolio de Soufiane Sayed, Étudiant BTS SIO option SISR - Recherche d'alternance pour la 2ème année." />
         <meta name="author" content="Soufiane Sayed" />
         <title>Soufiane SAYED | Portfolio BTS SIO SISR</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -11,6 +11,42 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .project-badge {
+                display: inline-block;
+                padding: 4px 10px;
+                border-radius: 4px;
+                font-size: 0.8rem;
+                font-weight: bold;
+                margin-right: 5px;
+                margin-bottom: 5px;
+            }
+            .badge-blue { background: #e1f5fe; color: #0288d1; }
+            .badge-green { background: #e8f5e9; color: #388e3c; }
+            .badge-orange { background: #fff3e0; color: #f57c00; }
+            .project-card {
+                background: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+                transition: transform 0.2s;
+                height: 100%;
+            }
+            .project-card:hover {
+                transform: translateY(-5px);
+            }
+            .about-list {
+                list-style: none;
+                padding-left: 0;
+            }
+            .about-list li {
+                margin-bottom: 15px;
+                color: rgba(255, 255, 255, 0.7);
+                font-size: 1.05rem;
+            }
+            .about-list strong {
+                color: #fff;
+            }
+        </style>
     </head>
     <body id="page-top">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -29,65 +65,111 @@
                 </div>
             </div>
         </nav>
+        
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">SOUFIANE SAYED</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Étudiant BTS SIO, Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</h2>
-                        <a class="btn btn-primary" href="#about">Découvrir</a>
+                        <a class="btn btn-primary" href="#about">Découvrir mon profil</a>
                     </div>
                 </div>
             </div>
         </header>
-        <section class="about-section text-center" id="about">
+        
+        <!-- SECTION PROFIL OPTIMISÉE -->
+        <section class="about-section" id="about" style="padding-top: 6rem; padding-bottom: 6rem;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Mon Parcours et Mes Compétences</h2>
-                        <p class="text-white-50">
-                            Actuellement étudiant en BTS SIO option SISR, je me spécialise dans la gestion, la sécurisation et la maintenance des infrastructures informatiques. Fort de mon expérience préalable en Bac STI2D (SIN), j'ai développé une solide approche des systèmes d'exploitation et de l'architecture réseau.
-                            <br /><br />
-                            Mon objectif est d'acquérir une expertise concrète dans l'administration système Linux et Windows, et de contribuer activement à l'efficacité des solutions IT au sein d'une entreprise lors de mon futur stage.
+                    <div class="col-lg-10 text-start">
+                        <h2 class="text-white mb-4 text-center">Mon Parcours & Objectif Professionnel</h2>
+                        <p class="text-white-50 mb-4" style="font-size: 1.1rem; line-height: 1.7;">
+                            Étudiant en BTS SIO option SISR et issu d’un Bac STI2D (SIN), je me spécialise dans l'administration, la supervision et la sécurisation des infrastructures informatiques. Mon récent stage de première année m'a permis de valider mes compétences techniques sur des problématiques réelles d'entreprise.
+                        </p>
+                        
+                        <p class="text-white mb-3" style="font-size: 1.1rem; font-weight: bold;">Mon profil technique s'articule autour de trois piliers opérationnels :</p>
+                        
+                        <ul class="about-list">
+                            <li><i class="fas fa-network-wired text-primary me-2"></i> <strong>Réseaux & Interconnexion :</strong> Configuration et sécurisation de commutateurs (HP, Cisco) et routeurs Cisco. Maîtrise des VLANs par port, routage inter-VLAN, Spanning Tree, ACL, NAT, SSH et transferts TFTP.</li>
+                            <li><i class="fas fa-server text-success me-2"></i> <strong>Systèmes & Gestion IT :</strong> Administration d'environnements Windows Server (Active Directory, GPO selon les critères ANSSI) et Linux. Support utilisateur et gestion de parc alignés sur les bonnes pratiques ITIL et l'outil GLPI.</li>
+                            <li><i class="fas fa-chart-line text-info me-2"></i> <strong>Supervision & MCO :</strong> Mise en place et paramétrage de l'outil Zabbix pour assurer la surveillance en temps réel et le maintien en condition opérationnelle des infrastructures.</li>
+                        </ul>
+                        
+                        <p class="text-white-50 mt-4 text-center" style="font-size: 1.1rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                            <strong>Je recherche un contrat d'alternance pour ma deuxième année.</strong> Mon objectif est de mettre cette rigueur technique au service de la performance et de la sécurité de votre système d'information.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
         </section>
+        
+        <!-- SECTION PROJETS -->
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Administration de Commutateurs et de Routage Inter-VLAN (CISCO / HP)</h4>
-                            <p class="text-black-50 mb-0">Mise en place et sécurisation des réseaux : configuration de VLAN par port, routage Inter-VLAN sur routeurs CISCO, contrôle d'accès (ACL), et maîtrise des protocoles comme Spanning-Tree. Gestion de configurations à distance par SSH et TFTP.</p>
-                            <a href="https://github.com/sayedsoufiane" target="_blank" class="btn btn-secondary btn-sm mt-3">Voir sur GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Gestion de Parc et Supervision IT (ITIL, GLPI, Zabbix)</h4>
-                                    <p class="mb-0 text-white-50">Introduction à la gestion de support avec le référentiel ITIL. Maîtrise des outils de gestion de parc informatique (GLPI) et des systèmes de supervision en temps réel pour serveurs et réseaux (Zabbix).</p>
+                <h2 class="text-center text-black mb-5 text-uppercase" style="letter-spacing: 2px;">Mes Réalisations Techniques</h2>
+                
+                <div class="row g-4">
+                    <!-- PROJET 1 : RESEAU -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-card d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <h4 class="text-dark mb-3"><i class="fas fa-network-wired text-primary me-2"></i> Architecture Réseau & Sécurisation (VLANs)</h4>
+                                <p class="text-muted small"><strong>🚨 Le Défi :</strong> Isoler les flux réseau des collaborateurs des accès invités pour éliminer les risques d'intrusion sur les serveurs de l'entreprise.</p>
+                                <p class="text-muted small"><strong>💡 Solution :</strong> Conception et déploiement d'une architecture segmentée avec création de VLANs dédiés, routage inter-VLAN et mise en place de listes de contrôle d'accès (ACL) restrictives.</p>
+                                <div class="mb-3">
+                                    <span class="project-badge badge-blue">Cisco / HP</span>
+                                    <span class="project-badge badge-blue">VLANs</span>
+                                    <span class="project-badge badge-blue">ACL / NAT</span>
+                                    <span class="project-badge badge-blue">SSH</span>
                                 </div>
+                            </div>
+                            <div class="text-center border-top pt-3 bg-light rounded">
+                                <img class="img-fluid rounded" src="image_8ea31b.png" alt="Schéma Réseau VLAN" style="max-height: 180px; object-fit: contain; cursor: pointer;" onclick="window.open(this.src)">
+                                <span class="d-block text-muted small mt-1" style="font-size: 0.75rem;"><i class="fas fa-search-plus"></i> Cliquer pour agrandir le schéma</span>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Technologies Systèmes</h4>
-                                    <p class="mb-0 text-white-50">Compétences en administration de systèmes Linux et Windows. Mise en place de services réseaux fondamentaux (DHCP, DNS, NAT) et utilisation des mécanismes de virtualisation.</p>
+
+                    <!-- PROJET 2 : VIRTUALISATION -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="project-card d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <h4 class="text-dark mb-3"><i class="fas fa-server text-success me-2"></i> Virtualisation d'Infrastructure & MCO</h4>
+                                <p class="text-muted small"><strong>🚨 Le Défi :</strong> Consolider l'infrastructure matérielle pour réduire les coûts physiques tout en garantissant une haute disponibilité des applications métiers.</p>
+                                <p class="text-muted small"><strong>💡 Solution :</strong> Déploiement d'un hyperviseur VMware ESXi sur serveur HPE ProLiant. Virtualisation des rôles clés et intégration d'une sonde de supervision proactive avec Zabbix et d'un helpdesk GLPI.</p>
+                                <div class="mb-3">
+                                    <span class="project-badge badge-green">VMware ESXi</span>
+                                    <span class="project-badge badge-green">HPE ProLiant</span>
+                                    <span class="project-badge badge-green">Zabbix</span>
+                                    <span class="project-badge badge-green">GLPI</span>
+                                </div>
+                            </div>
+                            <div class="text-center border-top pt-3 bg-light rounded">
+                                <img class="img-fluid rounded" src="image_58a201.png" alt="Schéma Infrastructure Virtuelle" style="max-height: 180px; object-fit: contain; cursor: pointer;" onclick="window.open(this.src)">
+                                <span class="d-block text-muted small mt-1" style="font-size: 0.75rem;"><i class="fas fa-search-plus"></i> Cliquer pour agrandir le schéma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJET 3 : AD & SECURITE -->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="project-card d-flex flex-column justify-content-between p-4">
+                            <div>
+                                <h4 class="text-dark mb-3"><i class="fas fa-shield-alt text-warning me-2"></i> Gestion des Identités & Durcissement AD</h4>
+                                <p class="text-muted small"><strong>🚨 Le Défi :</strong> Centraliser la gestion des droits des utilisateurs et appliquer les politiques de sécurité préconisées par l'ANSSI contre les cybermenaces.</p>
+                                <p class="text-muted small"><strong>💡 Solution :</strong> Structuration de l'Active Directory (OUs), déploiement de stratégies de groupe (GPOs) critiques (complexité des mots de passe, blocage des clés USB) et réalisation d'audits de vulnérabilités réguliers.</p>
+                                <div class="mb-3">
+                                    <span class="project-badge badge-orange">Active Directory</span>
+                                    <span class="project-badge badge-orange">Windows Server</span>
+                                    <span class="project-badge badge-orange">GPO Security</span>
+                                    <span class="project-badge badge-orange">PingCastle</span>
+                                </div>
+                            </div>
+                            <div class="text-center border-top pt-4 pb-2 bg-light rounded d-flex align-items-center justify-content-center" style="height: 205px;">
+                                <div class="text-muted p-2">
+                                    <i class="fas fa-lock fa-3x text-warning mb-2"></i>
+                                    <p class="small mb-0 px-2" style="font-size: 0.8rem; font-style: italic;">Audit de sécurité et remédiation AD effectués suivant les bonnes pratiques ANSSI.</p>
                                 </div>
                             </div>
                         </div>
@@ -95,17 +177,19 @@
                 </div>
             </div>
         </section>
+        
         <section class="signup-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">Me Contacter</h2>
-                        <h3 class="text-white-50">N'hésitez pas à me contacter pour toute opportunité de stage ou information.</h3>
+                        <h3 class="text-white-50">N'hésitez pas à me contacter pour toute opportunité d'alternance ou pour échanger sur mon profil.</h3>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -146,7 +230,8 @@
                 </div>
             </div>
         </section>
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Soufiane SAYED 2024</div></footer>
+        
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Soufiane SAYED 2026</div></footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
